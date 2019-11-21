@@ -1,0 +1,9 @@
+body {
+	padding-top : 10vh;
+	padding-bottom : 10vh;
+}
+input{
+	margin-bottom: 15px;
+	padding: 5px 10px 5px 10px ;
+	width: 300px;
+}
