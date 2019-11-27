@@ -7,7 +7,7 @@
 			<h1>Registration Form</h1>
 
 			<form name="form" action="actionpage.php" method="post">
-				<input type="text" title="FirstName" placeholder="FirstName" name="firstname" oninvalid="setCustomValidity('Enter First Name')" oninput="setCustomValidity('')" required/><br>
+				<input type="text" title="FirstName" class="formInput" placeholder="FirstName" name="firstname" oninvalid="setCustomValidity('Enter First Name')" oninput="setCustomValidity('')" required/><br>
 				<input type="text" title="Surname" placeholder="Surname" name="surname" oninvalid="setCustomValidity('Enter Surname')" oninput="setCustomValidity('')" required/><br>
 				<input type="text" title="IdNumber" placeholder="IdNumber" name="idnumber" oninvalid="setCustomValidity('Enter IdNumber')" oninput="setCustomValidity('')" required/><br>
 				<input type="text" title="PhoneNumber" placeholder="PhoneNumber" name="phonenumber" oninvalid="setCustomValidity('Enter PhoneNumber')" oninput="setCustomValidity('')" required/><br>

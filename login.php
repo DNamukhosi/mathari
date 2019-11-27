@@ -8,24 +8,35 @@
 
       <form action="/action_page.php" method="post">
         <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" title="UserName" placeholder="Enter Username" name="Username" required/><br><br>
+          <div>
+            <label for="uname"><b>Username</b></label>
+          <input class="formInput" type="text" title="UserName" placeholder="Enter Username" name="Username" required/><br><br>
+          </div>
 
+          <div>
             <label for="psw"><b>Password</b></label>
-            <input type="text" title="Password" placeholder="Enter Password" name="Password" required/><br><br>
+            <input class="formInput" type="text" title="Password" placeholder="Enter Password" name="Password" required/><br><br>
+          </div>
+          
+          <div>
+             <button type="submit" value="Login" class="buttonLogin">Login</button><br>
+          </div>
+          <div class="remember_me">
+            <input id="remember_me" name="remember_me" type="checkbox" />
+            <label id="remember_me_text">Remember me</label> <br>
+          </div>
+          
+          <br>
+          
 
-            <button type="submit" value="Login" class="submitbutton">Login</button><br>
-            
-             <label><input id="remember me" name="remember me" value="remember" type="checkbox" /> &nbsp;Remember me</label>
-            
-            </div>
+        </div>
 
             <div class="container">
 
-              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="button" class="buttonCancel">Cancel</button>
 
-              <span class="psw">Forgot <a href="#">password?</a></span>
-</div>
+              <span class="psw" id="forget_text" >Forgot <a href="#">password?</a></span>
+            </div>
 
 </form>
 

@@ -2,8 +2,34 @@ body {
 	padding-top : 10vh;
 	padding-bottom : 10vh;
 }
-input{
+.formInput{
 	margin-bottom: 15px;
 	padding: 5px 10px 5px 10px ;
 	width: 300px;
 }
+.buttonLogin{
+	margin-bottom: 15px;
+	margin-left: 90px;
+	width: 330px;
+	padding: 5px 10px 5px 10px ;
+
+
+	/*float: left;*/
+}
+
+#remember_me{
+	margin-right: 40px;
+}
+#remember_me_text{
+	margin-right: 70px;
+}
+.buttonCancel{
+	margin-bottom: 15px;
+	margin-right: 30px;
+}
+#forget_text{
+	margin-left: 70px;
+}
+
+
+
