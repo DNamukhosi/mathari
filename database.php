@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $dbaname = "mathari_hospital";
-$username = "mathari";
-$password = "12345";
+$username = "dama";
+$password = "root";
 
 
 // Create connection

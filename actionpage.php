@@ -12,7 +12,7 @@
 	$City=$_POST['city'];
 	$Password=$_POST['password'];
 	$Password2=$_POST['password2'];
-	$result = mysqli_query($conn, "select firstname from visitors_table where firstname='$Firstname'");
+	$result = mysqli_query($conn, "select firstname from visitors_tbl where firstname='$Firstname'");
 	//execute the querry
 	if ($Password != $Password2){
 		echo "<script language='javascript'>
@@ -22,7 +22,7 @@
 		exit();
 	} 
 	else{
-		$query = "INSERT INTO visitors_table (firstname, surname, idnumber, phonenumber, email, city, password) VALUES('$Firstname', '$Surname', '$IdNumber', '$PhoneNumber', '$Email', '$City', '$Password')";
+		$query = "INSERT INTO visitors_tbl (firstname, surname, idnumber, phonenumber, email, city, password) VALUES('$Firstname', '$Surname', '$IdNumber', '$PhoneNumber', '$Email', '$City', '$Password')";
 		if (mysqli_query($conn, $query)){
 			echo "<script language='javascript'>
 				alert('Member details added')
