@@ -1,23 +1,38 @@
 body {
 	padding-top : 10vh;
 	padding-bottom : 10vh;
+    font-family: 'Nunito', sans-serif;
 }
+
+.login .card {
+	width: 500px;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+.register .card{
+	width: 500px;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
 .formInput{
 	margin-bottom: 15px;
 	padding: 5px 10px 5px 10px ;
-	width: 300px;
+	width: 100%;
 }
-.buttonLogin{
+.button_submit{
 	margin-bottom: 15px;
-	margin-left: 90px;
-	width: 330px;
+	width: 100px;
+	border-radius: 4px;
 	padding: 5px 10px 5px 10px ;
-
-
-	/*float: left;*/
+}
+.formInputDesc{
+margin-bottom: 15px;
+padding: 5px 10px 5px 10px ;
+width: 100%;	
 }
 
-#remember_me{
+/*#remember_me{
 	margin-right: 40px;
 }
 #remember_me_text{
@@ -28,8 +43,9 @@ body {
 	margin-right: 30px;
 }
 #forget_text{
-	margin-left: 70px;
+	margin-right: 150px;
 }
-
-
-
+#register{
+	margin-right: 300px;
+}
+*/
